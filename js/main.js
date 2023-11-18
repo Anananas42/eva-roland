@@ -86,10 +86,11 @@
     // Gallery carousel
     $(".gallery-carousel").owlCarousel({
         autoplay: false,
-        smartSpeed: 1500,
+        smartSpeed: 1250,
         dots: false,
         loop: true,
         nav : true,
+        lazyLoadEager: 2,
         navText : [
             '<i class="fa fa-angle-left" aria-hidden="true"></i>',
             '<i class="fa fa-angle-right" aria-hidden="true"></i>'
@@ -101,13 +102,13 @@
             576:{
                 items:2
             },
-            768:{
+            1200:{
                 items:3
             },
-            992:{
+            1500:{
                 items:4
             },
-            1200:{
+            1800:{
                 items:5
             }
         }
