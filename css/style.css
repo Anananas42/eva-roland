@@ -17,6 +17,10 @@
   max-width: 400px;
 }
 
+#gallery {
+  padding-bottom: 0 !important;
+}
+
 /******* Bootstrap Theming ********/
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
